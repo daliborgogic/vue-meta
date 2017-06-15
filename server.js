@@ -107,7 +107,7 @@ function render (req, res) {
       return res.end(hit)
     }
   }
-  const  fullUrl = '//' + req.get('host') + req.originalUrl
+  const  fullUrl = 'https://' + req.get('host') + req.originalUrl
   const context = {
     title: 'Vue HN 2.0', // default title
     description: 'default description',
