@@ -16,13 +16,13 @@ const serverDescriptionMixin = {
   }
 }
 
-// const clientDescriptionMixin = {
-//   mounted () {
-//     const description = getDescription(this)
-//     if (description) {
-//       document.description = description
-//     }
-//   }
-// }
+const clientDescriptionMixin = {
+  mounted () {
+    const description = getDescription(this)
+    if (description) {
+      document.description = description
+    }
+  }
+}
 
-export default process.env.VUE_ENV === 'server' ? serverDescriptionMixin : null
+export default process.env.VUE_ENV === 'server' ? serverDescriptionMixin : clientDescriptionMixin

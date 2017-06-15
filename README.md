@@ -1,7 +1,7 @@
 
 # Vuejs Server Side Rendering Meta
 
-[Demo](https://vue-meta-opwvhbrsmy.now.sh)
+[Demo](https://vue-meta-rupkpgkzhz.now.sh)
 
 ## Build Setup
 

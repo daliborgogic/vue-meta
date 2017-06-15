@@ -16,13 +16,13 @@ const serverCardMixin = {
   }
 }
 
-// const clientCardMixin = {
-//   mounted () {
-//     const card = getCard(this)
-//     if (card) {
-//       document.card = card
-//     }
-//   }
-// }
+const clientCardMixin = {
+  mounted () {
+    const card = getCard(this)
+    if (card) {
+      document.card = card
+    }
+  }
+}
 
-export default process.env.VUE_ENV === 'server' ? serverCardMixin : null
+export default process.env.VUE_ENV === 'server' ? serverCardMixin : clientCardMixin
