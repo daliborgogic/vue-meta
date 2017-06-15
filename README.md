@@ -27,4 +27,4 @@ https://cards-dev.twitter.com/validator
 
 ### ToDo:
 
-- [] meta og:image
+- [ ] meta og:image
