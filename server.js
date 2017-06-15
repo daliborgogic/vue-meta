@@ -112,6 +112,7 @@ function render (req, res) {
     title: 'Vue HN 2.0', // default title
     description: 'default description',
     url: req.url,
+    card: 'http://placehold.it/1280x768/f60/fff?text=DEFAULT',
     fullUrl: fullUrl
   }
   renderer.renderToString(context, (err, html) => {

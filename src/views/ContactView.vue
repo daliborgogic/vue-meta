@@ -15,6 +15,9 @@ export default {
 
   description () { 
     return 'This is description for contact'
+  },
+  card () {
+  	return 'http://placehold.it/1280x768/f60/fff?text=CONTACT'
   }
 }
 </script>

@@ -1,11 +1,11 @@
 
 # Vuejs Server Side Rendering Meta
 
-[Demo](https://vue-meta-doicjdmicy.now.sh/)
+[Demo](https://vue-meta-opwvhbrsmy.now.sh)
 
 ## Build Setup
 
-**Requires Node.js 6+**
+**Requires Node.js 7+**
 
 ``` bash
 # install dependencies
@@ -29,4 +29,4 @@ https://cards-dev.twitter.com/validator
 
 ### ToDo:
 
-- [ ] meta og:image
+- [x] meta og:image

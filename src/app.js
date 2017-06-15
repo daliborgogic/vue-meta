@@ -5,11 +5,12 @@ import { createRouter } from './router'
 import { sync } from 'vuex-router-sync'
 import titleMixin from './util/title'
 import descriptionMixin from './util/description'
+import cardMixin from './util/card'
 import * as filters from './util/filters'
 
-// mixin for handling title and description
 Vue.mixin(titleMixin)
 Vue.mixin(descriptionMixin)
+Vue.mixin(cardMixin)
 
 // register global utility filters.
 Object.keys(filters).forEach(key => {
