@@ -1,10 +1,6 @@
 
 # Vuejs Server Side Rendering Meta
 
-[Demo](https://vuejs-ssr-meta-jxpcrsfdul.now.sh/)
-
-> Note: the demo may need some spin up time if nobody has accessed it for a certain period.
-
 ## Build Setup
 
 **Requires Node.js 6+**
