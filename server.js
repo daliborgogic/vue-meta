@@ -109,8 +109,10 @@ function render (req, res) {
   }
   const  fullUrl = 'https://' + req.get('host') + req.originalUrl
   const context = {
-    title: 'Vue HN 2.0', // default title
-    description: 'default description',
+    meta: {
+      title: 'vue-meta', // default title
+      description: 'default description',
+    },
     url: req.url,
     card: 'http://placehold.it/1280x768/f60/fff?text=DEFAULT',
     fullUrl: fullUrl

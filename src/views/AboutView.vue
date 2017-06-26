@@ -9,15 +9,13 @@
 export default {
   name: 'about-view',
 
-  title () {
-    return 'This is about'
+  meta () {
+    const meta = {
+      title: 'About',
+      description: 'Description for about',
+      card: 'http://placehold.it/1280x768/f60/fff?text=ABOUT'
+    }
+    return meta
   },
-
-  description () { 
-    return 'This is description for about'
-  },
-  card () {
-  	return 'http://placehold.it/1280x768/f60/fff?text=ABOUT'
-  }
 }
 </script>

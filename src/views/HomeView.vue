@@ -9,15 +9,13 @@
 export default {
   name: 'home-view',
 
-  title () {
-    return 'This is home'
-  },
-
-  description () { 
-    return 'This is description for home'
-  },
-  card () {
-  	return 'http://placehold.it/1280x768/f60/fff?text=HOME'
+  meta () {
+    const meta = {
+      title: 'Home',
+      description: 'Description for home',
+      card: 'http://placehold.it/1280x768/f60/fff?text=HOME'
+    }
+    return meta
   }
 }
 </script>
